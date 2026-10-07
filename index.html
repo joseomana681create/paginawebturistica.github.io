@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía Turística · Santa Bárbara del Zulia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Karla:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-container">
+      <a href="#inicio" class="logo">Santa Bárbara del Zulia</a>
+
+      <button id="menuBtn" class="menu-btn" aria-expanded="false" aria-controls="menu">☰</button>
+
+      <ul id="menu" class="nav-menu">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#contactos">Contactos</a></li>
+      </ul>
+    </div>
+  </header>
+
+         <main>
+
+    
+    <section id="inicio" class="hero">
+      <div class="hero-content">
+        <span class="tag">Municipio Colón · Estado Zulia · Venezuela</span>
+
+        <h1>Descubre el encanto natural de Santa Bárbara del Zulia</h1>
+
+        <p>
+          Un destino del Sur del Lago de Maracaibo rodeado de paisajes verdes,
+          ríos, tradición agropecuaria y gente hospitalaria. Ideal para quienes
+          buscan naturaleza, tranquilidad y cultura zuliana.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#servicios" class="btn btn-primary">Ver servicios</a>
+          <a href="#sobre" class="btn btn-secondary">Conocer más</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicios" class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="subtitle">Servicios</span>
+          <h2>Experiencias y atención para el visitante</h2>
+          <p>
+            Santa Bárbara del Zulia ofrece un ambiente ideal para el turismo
+            rural, natural y familiar.
+          </p>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <img class="card-img" src="img/hotel-bolivar.jpg" alt="Fachada del Hotel Bolívar" loading="lazy">
+            <div class="icon">🏡</div>
+            <h3>Hospedaje y posadas</h3>
+            <p>
+              Espacios cómodos y acogedores para descansar y disfrutar de la
+              tranquilidad del municipio Colón.
+            </p>
+          </article>
+
+          <article class="card">
+            <img class="card-img" src="img/patacon.jpg" alt="Patacón zuliano relleno de carne mechada" loading="lazy">
+            <div class="icon">🍲</div>
+            <h3>Gastronomía local</h3>
+            <p>
+              Sabores zulianos, platos típicos y comida tradicional para vivir
+              una experiencia auténtica.
+            </p>
+          </article>
+
+          <article class="card">
+            <img class="card-img" src="img/puente-rio.jpg" alt="Puente colorido sobre el río en Santa Bárbara" loading="lazy">
+            <div class="icon">🚙</div>
+            <h3>Transporte y recorridos</h3>
+            <p>
+              Opciones de traslado y paseos para conocer paisajes, comunidades
+              y puntos turísticos de la zona.
+            </p>
+          </article>
+
+          <article class="card">
+            <img class="card-img" src="img/manglar-cienaga.jpg" alt="Río y vegetación del Sur del Lago" loading="lazy">
+            <div class="icon">🌿</div>
+            <h3>Naturaleza y ecoturismo</h3>
+            <p>
+              Actividades al aire libre, contacto con el campo, ríos y paisajes
+              característicos del Sur del Lago.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+     
+    <section id="sobre" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <span class="subtitle">Sobre</span>
+          <h2>¿Qué hace especial a Santa Bárbara del Zulia?</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card">
+            <h3>Tierra de naturaleza y tradición</h3>
+
+            <p>
+              Santa Bárbara del Zulia, capital del municipio Colón, se encuentra
+              en la zona sur del Lago de Maracaibo. Es una tierra con fuerte
+              vocación agrícola y ganadera, donde el paisaje combina campos
+              productivos, ríos y el ambiente cálido del occidente venezolano.
+            </p>
+
+            <ul class="about-list">
+              <li>Entorno natural y rural, ideal para escapadas tranquilas.</li>
+              <li>Influencia de ríos y paisajes del Sur del Lago.</li>
+              <li>Tradiciones zulianas, gastronomía y hospitalidad local.</li>
+              <li>Punto estratégico para conocer comunidades y rutas cercanas.</li>
+            </ul>
+          </div>
+
+          <aside class="highlight">
+            <h3>Ideal para visitar en familia</h3>
+
+            <ul>
+              <li>Paseos y recorridos al aire libre.</li>
+              <li>Platos típicos y sabores de la región.</li>
+              <li>Experiencias sencillas y auténticas.</li>
+              <li>Contacto con la vida del campo zuliano.</li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="galeria" class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="subtitle">Galería</span>
+          <h2>Conoce Santa Bárbara en imágenes</h2>
+          <p>Lugares, sabores, naturaleza y hospedaje del municipio Colón.</p>
+        </div>
+
+        <div class="filtros" role="group" aria-label="Filtrar galería por categoría">
+          <button class="filtro activo" data-filtro="todos">Todos</button>
+          <button class="filtro" data-filtro="lugares">Lugares</button>
+          <button class="filtro" data-filtro="naturaleza">Naturaleza</button>
+          <button class="filtro" data-filtro="gastronomia">Gastronomía</button>
+          <button class="filtro" data-filtro="hospedaje">Hospedaje</button>
+        </div>
+
+        <div class="galeria">
+          <figure class="foto" data-categoria="lugares">
+            <img src="img/iglesia.jpg" alt="Iglesia de Santa Bárbara" loading="lazy">
+            <figcaption>
+              <span class="etiqueta">Lugares</span>
+              <strong>Iglesia de Santa Bárbara</strong>
+              Templo de fachada amarilla y azul, ícono del pueblo.
+            </figcaption>
+          </figure>
+          <figure class="foto" data-categoria="lugares">
+            <img src="img/plaza.jpg" alt="Plaza y paseo" loading="lazy">
+            <figcaption>
+              <span class="etiqueta">Lugares</span>
+              <strong>Plaza y paseo</strong>
+              Amplio espacio con faroles para pasear al aire libre.
+            </figcaption>
+          </figure>
+          <figure class="foto" data-categoria="lugares">
+            <img src="img/puente-rio.jpg" alt="Puente sobre el río" loading="lazy">
+            <figcaption>
+              <span class="etiqueta">Lugares</span>
+              <strong>Puente sobre el río</strong>
+              Colorido paso que conecta el centro del pueblo.
+            </figcaption>
+          </figure>
+          <figure class="foto" data-categoria="naturaleza">
+            <img src="img/rio.jpg" alt="Río del Sur del Lago" loading="lazy">
+            <figcaption>
+              <span class="etiqueta">Naturaleza</span>
+              <strong>Río del Sur del Lago</strong>
+              Aguas que atraviesan el paisaje verde de la zona.
+            </figcaption>
+          </figure>
+          <figure class="foto" data-categoria="naturaleza">
+            <img src="img/manglar-cienaga.jpg" alt="Paseo en lancha" loading="lazy">
+            <figcaption>
+              <span class="etiqueta">Naturaleza</span>
+              <strong>Paseo en lancha</strong>
+              Vegetación exuberante a orillas del agua.
+            </figcaption>
+          </figure>
+          <figure class="foto" data-categoria="gastronomia">
+            <img src="img/patacon.jpg" alt="Patacón" loading="lazy">
+            <figcaption>
+              <span class="etiqueta">Gastronomía</span>
+              <strong>Patacón</strong>
+              Plátano verde frito relleno, clásico zuliano.
+            </figcaption>
+          </figure>
+          <figure class="foto" data-categoria="gastronomia">
+            <img src="img/carne-en-vara.jpg" alt="Carne en vara" loading="lazy">
+            <figcaption>
+              <span class="etiqueta">Gastronomía</span>
+              <strong>Carne en vara</strong>
+              Carne asada lentamente a la leña.
+            </figcaption>
+          </figure>
+          <figure class="foto" data-categoria="gastronomia">
+            <img src="img/dulce-de-leche.jpg" alt="Dulce de leche" loading="lazy">
+            <figcaption>
+              <span class="etiqueta">Gastronomía</span>
+              <strong>Dulce de leche</strong>
+              Postre tradicional de la tierra ganadera.
+            </figcaption>
+          </figure>
+          <figure class="foto" data-categoria="gastronomia">
+            <img src="img/chicha.jpg" alt="Chicha" loading="lazy">
+            <figcaption>
+              <span class="etiqueta">Gastronomía</span>
+              <strong>Chicha</strong>
+              Bebida cremosa de arroz con canela.
+            </figcaption>
+          </figure>
+          <figure class="foto" data-categoria="hospedaje">
+            <img src="img/hotel-bolivar.jpg" alt="Hotel Bolívar" loading="lazy">
+            <figcaption>
+              <span class="etiqueta">Hospedaje</span>
+              <strong>Hotel Bolívar</strong>
+              Hotel y restaurante en el centro del pueblo.
+            </figcaption>
+          </figure>
+          <figure class="foto" data-categoria="hospedaje">
+            <img src="img/hotel-the-view.jpg" alt="The View Hotel" loading="lazy">
+            <figcaption>
+              <span class="etiqueta">Hospedaje</span>
+              <strong>The View Hotel</strong>
+              Hotel de estilo moderno para tu estadía.
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="contactos" class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="subtitle">Contactos</span>
+          <h2>Planifica tu visita o solicita información</h2>
+          <p>
+            Puedes contactar al equipo de turismo para conocer más sobre
+            servicios, recorridos, hospedaje y recomendaciones.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-box">
+            <h3>Información de contacto</h3>
+
+            <div class="contact-item">
+              <strong>Ubicación</strong>
+              Santa Bárbara del Zulia, municipio Colón, estado Zulia, Venezuela.
+            </div>
+
+            <div class="contact-item">
+              <strong>Teléfono / WhatsApp</strong>
+              +58 412-000-0000
+            </div>
+
+            <div class="contact-item">
+              <strong>Correo electrónico</strong>
+              turismo@ejemplo.com
+            </div>
+
+            <div class="contact-item">
+              <strong>Horario de atención</strong>
+              Lunes a domingo, 8:00 a. m. - 6:00 p. m.
+            </div>
+
+            <a
+              class="btn btn-primary"
+              href="https://wa.me/584120000000"
+              target="_blank"
+              rel="noopener"
+            >
+              Escribir por WhatsApp
+            </a>
+          </div>
+
+          <div class="form-box">
+            <h3>Envíanos un mensaje</h3>
+
+            <form onsubmit="event.preventDefault(); alert('Gracias por tu mensaje. Pronto te contactaremos.'); this.reset();">
+              <label for="nombre">Nombre completo</label>
+              <input
+                id="nombre"
+                name="nombre"
+                type="text"
+                placeholder="Tu nombre"
+                required
+              >
+
+              <label for="correo">Correo electrónico</label>
+              <input
+                id="correo"
+                name="correo"
+                type="email"
+                placeholder="tucorreo@ejemplo.com"
+                required
+              >
+
+              <label for="asunto">Asunto</label>
+              <select id="asunto" name="asunto">
+                <option>Información turística</option>
+                <option>Servicios y reservas</option>
+                <option>Recomendaciones de lugares</option>
+                <option>Otro</option>
+              </select>
+
+              <label for="mensaje">Mensaje</label>
+              <textarea
+                id="mensaje"
+                name="mensaje"
+                rows="5"
+                placeholder="Cuéntanos qué deseas saber..."
+                required
+              ></textarea>
+
+              <button type="submit">Enviar mensaje</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  
+  <footer>
+    <div class="links">
+      <a href="#inicio">Inicio</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#galeria">Galería</a>
+      <a href="#contactos">Contactos</a>
+    </div>
+
+    <p>
+      Sitio web turístico de Santa Bárbara del Zulia — Proyecto demo.
+      © 2026
+    </p>
+  </footer>
+
+  <script>
+    const menuBtn = document.getElementById("menuBtn");
+    const menu = document.getElementById("menu");
+
+    menuBtn.addEventListener("click", () => {
+      const isOpen = menu.classList.toggle("open");
+      menuBtn.setAttribute("aria-expanded", isOpen);
+      menuBtn.textContent = isOpen ? "✕" : "☰";
+    });
+
+    menu.querySelectorAll("a").forEach(link => {
+      link.addEventListener("click", () => {
+        menu.classList.remove("open");
+        menuBtn.setAttribute("aria-expanded", "false");
+        menuBtn.textContent = "☰";
+      });
+    });
+    const filtros = document.querySelectorAll(".filtro");
+    const fotos = document.querySelectorAll(".foto");
+
+    filtros.forEach(btn => {
+      btn.addEventListener("click", () => {
+        filtros.forEach(b => b.classList.remove("activo"));
+        btn.classList.add("activo");
+        const f = btn.dataset.filtro;
+        fotos.forEach(foto => {
+          foto.hidden = !(f === "todos" || foto.dataset.categoria === f);
+        });
+      });
+    });
+  </script>
+</body>
+</html>
